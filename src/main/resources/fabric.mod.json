@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "overhealth",
+  "version": "${version}",
+  "name": "OverHealth",
+  "description": "",
+  "authors": [],
+  "contact": {
+    "repo": "https://github.com/26537/OverHealth"
+  },
+  "license": "MIT",
+  "icon": "assets/OverHealth/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "org.arbor.overhealth.client.OverHealthClient"
+    ],
+    "main": [
+      "org.arbor.overhealth.OverHealth"
+    ]
+  },
+  "accessWidener": "overhealth.accesswidener",
+  "depends": {
+    "fabricloader": "0.14.15",
+    "fabric": "*",
+    "minecraft": "1.19.2",
+    "com_electronwill_night-config_core": "*",
+    "com_electronwill_night-config_toml": "*"
+  }
+}
